@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.env
+.env.*
+!.env.example
+vendor/
+.DS_Store
+Thumbs.db
+config/database.php

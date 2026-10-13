@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] { display: none !important; }
+
+@layer utilities {
+    .sidebar-active {
+      @apply bg-[#408DFB] text-white rounded-lg;
+    }
+}
